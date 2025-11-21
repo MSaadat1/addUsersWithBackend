@@ -1,0 +1,47 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: flex-start;
+  gap: 20px;
+}
+.input-value {
+  width: 400px;
+  padding: 10px 5px;
+}
+#submit-btn {
+  padding: 5px 10px;
+  border: none;
+  background-color: lightblue;
+  cursor: pointer;
+  border-radius: 2px;
+}
+ul.user-container {
+  padding: 0;
+}
+.user {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+#delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+#update-btn {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}
